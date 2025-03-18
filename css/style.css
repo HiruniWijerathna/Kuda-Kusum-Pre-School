@@ -18,6 +18,7 @@
     --main-color:rgb(6, 2, 118);
     --text-color:rgb(3, 0, 33);
     --text-color2:rgb(243, 251, 251);
+    --span-color:rgb(0, 17, 255);
 
 }
 
@@ -73,12 +74,46 @@ section{
     color: var(--main-color);
 }
 
-#menu-icon{
-    font-size: 3.6rem;
-    color:var(--text-color) ;
+#menu-icon {
+    font-size: 30px;
+    color:var(--text-color);
     display: none;
+    cursor: pointer;
 }
 
+/* Navigation horizontal by default */
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+/* Responsive changes */
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;  /* Show the menu icon */
+    }
+
+    .navbar {
+        position: absolute;
+        top: 70px;
+        right: -100%;   /* Hide off-screen */
+        background-color:white;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: right 0.3s ease;
+        z-index: 1000;
+    }
+
+    .navbar.active {
+        right: 0;   /* Slide in when active */
+    }
+
+    .navbar a {
+        padding: 15px 0;
+        display: block;
+    }
+}
 /*home*/
 
 
@@ -155,3 +190,69 @@ span{
 .btn:hover{
     box-shadow: none;
 }
+
+/*about*/
+.about{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+
+}
+
+.vision-mission {
+ 
+}
+
+.vision{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5rem;
+}
+
+
+.heading {
+    text-align: center ;
+    font-size: 4.5rem;
+}
+
+span{
+    color: var(--span-color);
+}
+
+.vision-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.vision-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.vision-img img{
+    width: 35vw;
+    border-radius: 10%;
+}
+
+.mission{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5rem;
+}
+.mission-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.mission-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.mission-img img{
+    width: 35vw;
+    border-radius: 10%;
+}
+
