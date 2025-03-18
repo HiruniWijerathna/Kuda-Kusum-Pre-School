@@ -212,6 +212,21 @@ span{
    
 }
 
+
+/*home event*/
+.event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+  }
+
+.event-img img{
+    width: 40vw;
+   
+}
+
+
 /*about*/
 
 .about3 {
