@@ -444,6 +444,7 @@ span{
 
 /*academics*/
 
+
 .academics1 {
     background-image: url('../image/academicmain.jpg'); /* Add your background image */
     background-size: cover;
@@ -482,7 +483,7 @@ span{
     align-items: center;  /* Centers the content vertically */
     flex-direction: column;  /* Ensures the content is in a column */
     text-align: center;  /* Centers the text inside */
-    background: var(--second-bg-color);
+    background: var(--bg-color);
   }
   
   .books-details{
@@ -501,6 +502,15 @@ span{
     max-width: 200px;  /* Optional: Adjust the maximum image size */
   }
 
+
+  .Learning-circles{
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;  /* Centers the content vertically */
+    flex-direction: column;  /* Ensures the content is in a column */
+    text-align: center;  /* Centers the text inside */
+    background: var(--second-bg-color);
+  }
 
   .Learning-circles-container {
     display: grid;
