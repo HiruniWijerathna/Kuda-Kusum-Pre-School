@@ -471,8 +471,8 @@ span{
 
 .history-1 img, .history-2 img {
     width: 100%;
-    max-width: 200px;
-    border-radius: 50%;
+    max-width: 300px;
+    border-radius: 5%;
 }
 
 ul {
