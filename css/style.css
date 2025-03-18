@@ -595,6 +595,66 @@ span{
 }
 
 
+.eventss-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.eventss-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventss-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+    transition: transform 0.5s ease;
+}
+
+.eventsss-box:hover img {
+    transform: scale(1.05);
+}
+
+.eventss-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.eventss-box:hover .eventss-layer {
+    opacity: 1;
+}
+
+.eventss-layer h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.eventss-layer p {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+
 
 
 
