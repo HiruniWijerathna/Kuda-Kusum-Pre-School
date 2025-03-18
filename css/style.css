@@ -597,7 +597,7 @@ span{
 
 .eventss-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -689,6 +689,10 @@ span{
         padding-bottom:7rem ;
     }
 
+    .eventss{
+        padding-bottom:7rem ;
+    }
+
     .contact{
         min-height: auto;
     }
@@ -762,6 +766,14 @@ span{
     }
 
     .Learning-circles-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .eventss h2{
+        margin-bottom: 3rem;
+    }
+
+    .eventss-container{
         grid-template-columns: repeat(2, 1fr);
     }
 }
