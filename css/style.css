@@ -943,7 +943,7 @@ ul li strong {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--nav-colr);
 }
 
 .footer-text p{
