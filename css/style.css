@@ -20,6 +20,7 @@
     --text-color2:rgb(243, 251, 251);
     --span-color:rgb(0, 10, 154);
     --nav-active-color: #00aaff;
+    --contact-color:#474865;
 
 }
 
@@ -766,7 +767,7 @@ span{
 .contact2-box {
     display: flex;
     align-items: center;
-    background: var(--text-color);
+    background: var( --contact-color);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
