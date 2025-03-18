@@ -968,6 +968,11 @@ ul li strong {
     justify-content: center;
     align-items: center;
     background: var(--second-bg-color);
+    gap: 1rem;
+  }
+
+  .contact4 h6{
+    font-size: 2.2rem;
   }
 
 
