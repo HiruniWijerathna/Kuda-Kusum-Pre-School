@@ -850,8 +850,8 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
@@ -863,10 +863,16 @@ span{
 
 .social-media-3 a:hover{
     background: var(--main-color);
-    color: var(--second-bg-color);
+    color: var(--text-color2);
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+.contact4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--second-bg-color);
+  }
 
 
 
