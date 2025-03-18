@@ -12,23 +12,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <a class="logo">
-            <div class="logo-img">
-                <img src="image/logo.png" alt="">
-            </div>
-        </a>
 
-        <i class='bx bx-menu' id="menu-icon" ></i>
+    <div id="header"></div>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#academics">Academics</a>
-            <a href="#event">Event</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
+
 
     <section class="home" id="home">
         <div class="home-content">
@@ -41,7 +35,7 @@
 
             </div>
         
-            <a href="#about"  class="btn">About</a>
+           
 
         </div>
 

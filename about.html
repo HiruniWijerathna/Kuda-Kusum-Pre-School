@@ -11,23 +11,28 @@
     <title>About pre school</title>
 </head>
 <body>
+    <div id="header"></div>
 
-    <section class="home" id="home">
-        <div class="home-content">
+<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
+
+
+
+    <section class="about1" id="about1">
+         <div class="about-content-1">
              <h1><span> About </span>  The Pre School</h1>
-                    
-            
-            <a href="#about"  class="btn">About</a>
-
         </div>
-
-        <div class="home-img">
-        <img src="image/homeImg2.png" alt="home image">
-        </div>
+   
+       
     </section>
 
 
-    <section class="about" id="about">
+    <section class="about2" id="about">
 
        
 
@@ -44,7 +49,7 @@
     
                 </div>
 
-                <a href="about.html"  class="btn">About More</a>
+               
 
             </div>
 
@@ -53,31 +58,46 @@
     </section>
 
 
-    <section class="vision-mission" id="vision-mission">
-            <div class="vision">
+    
+            <section class="vision">
                 <div class="vision-img">
                     <img src="image/vision.jpg" alt="vision">
                 </div>
                 
                 <div class="vision-content">
                     <h2 class="heading">Our <span>Vision</span></h2>
-                    <p>
-                        I am a Software Engineering undergraduate at Sabaragamuwa University of Sri Lanka, 
-                        passionate about technology, software development, and innovation.
+                    <p><i>
+                        "Building a bright 
+                        future for every child."
+                    </i>
+                    </p>
+
+                    <p><i>
+                        "සෑම දරුවෙකුටම දීප්තිමත් අනාගතයක් ගොඩනැගීම."
+                    </i>
                     </p>
                    
                 </div>
 
-            </div>
+            </section>
 
-            <div class="mission">
+            <section class="mission">
               
                 
                 <div class="mission-content">
                     <h2 class="heading">Our <span>Mission</span></h2>
-                    <p>
-                        I am a Software Engineering undergraduate at Sabaragamuwa University of Sri Lanka, 
-                        passionate about technology, software development, and innovation.
+                    <p><i>
+                        "To create active children can work and learn together in 
+                        <br> an environment of equality and safety"
+                    </i>
+                    </p>
+
+                    <p><i>
+                        "සමානාත්මතාවය හා
+                        ආරක්ෂාව ඇති පරිසරයක
+                        එක්කව වැඩ කිරීමට එක්ව ඉගෙනීමට 
+                       <br>හැකි ක්‍රියාශීලී දරුවන් බිහි කිරීම."
+                    </i>
                     </p>
                    
                 </div>
@@ -86,10 +106,10 @@
                     <img src="image/mision.jpg"" alt="mission">
                 </div>
 
-            </div>
+            </section>
 
-        </div>
-    </section>
+
+    
 
 
     <!-- scroll reveal-->
