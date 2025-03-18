@@ -976,16 +976,17 @@ footer .contact-info {
 }
 
 footer .contact-info a {
-    color: #fff;
+    color: var(--main-color);
     text-decoration: none;
 }
 
 footer .contact-info a:hover {
-    color: #ff9800; /* Hover effect */
+    color: var(--nav-active-color) /* Hover effect */
 }
 
 footer .footer-nav {
     margin-top: 20px;
+    
 }
 
 footer .footer-nav h4 {
@@ -1001,10 +1002,11 @@ footer .footer-nav ul {
 
 footer .footer-nav ul li {
     margin-bottom: 8px;
+    background: var(--text-color);
 }
 
 footer .footer-nav ul li a {
-    color: var(--text-color);
+    color: var(--text-color2);
     text-decoration: none;
     font-size: 16px;
 }
@@ -1017,6 +1019,11 @@ footer p {
     margin-top: 10px;
     font-size: 14px;
 }
+
+footer strong{
+    font-size: 16px; 
+}
+
 
 
 
