@@ -970,6 +970,55 @@ ul li strong {
 }
 
 
+footer .contact-info {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .contact-info a:hover {
+    color: #ff9800; /* Hover effect */
+}
+
+footer .footer-nav {
+    margin-top: 20px;
+}
+
+footer .footer-nav h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer .footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-nav ul li {
+    margin-bottom: 8px;
+}
+
+footer .footer-nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer .footer-nav ul li a:hover {
+    color: var(--nav-active-color) /* Hover effect */
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
 
 
 
