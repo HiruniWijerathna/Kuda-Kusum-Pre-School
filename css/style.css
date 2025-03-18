@@ -664,32 +664,130 @@ span{
     margin-top: 0.5rem;
 }
 
-/*contact*/
-
-
-.contact1 {
-    background-image: url('../image/cantactmain.jpg'); /* Add your background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%; /* Adjust the width of the section */
-    height: 100%; /* Adjust the height of the section */
+/* Main Contact Section */
+.contact2-container {
     display: flex;
-    justify-content: center; /* Centers content horizontally inside section */
-    align-items: center; /* Centers content vertically inside section */
-  }
-
-.contact1::before {
-    content: ''; /* Creates an empty element */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* White overlay with 50% opacity */
-    z-index: 1; /* Makes sure the overlay is on top of the background image but below content */
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: auto;
+    background: var(--bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    
 }
 
+/* Left Section: Contact Details */
+.contact2-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+}
+
+/* Contact Box */
+.contact2-box {
+    display: flex;
+    align-items: center;
+    background: var(--second-bg-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact2-box:hover {
+    transform: scale(1.02);
+}
+
+/* Icons */
+.contact2-box i {
+    font-size: 22px;
+    color: var(--main-color);
+    margin-right: 15px;
+}
+
+/* Contact Info */
+.contact2-box h3 {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.contact2-box p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: white;
+}
+
+/* Links */
+.contact2-box a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact2-box a:hover {
+    color: #2736c0;
+}
+
+/* Right Section: Google Map */
+.map-container {
+    width: 55%;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact2-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contact2-details, .map-container {
+        width: 100%;
+    }
+
+    .map-container iframe {
+        height: 250px;
+    }
+}
+
+.social-media-3 {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+
+}
+
+.social-media-3 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.social-media-3 a:hover{
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
 
 
 
