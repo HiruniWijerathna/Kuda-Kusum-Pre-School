@@ -20,7 +20,7 @@
     --text-color2:rgb(243, 251, 251);
     --span-color:rgb(0, 10, 154);
     --nav-active-color: #00aaff;
-    --contact-color:#474865;
+    --contact-color:#8ba3ae;
 
 }
 
@@ -749,7 +749,7 @@ span{
     align-items: flex-start;
     max-width: 1100px;
     margin: auto;
-    background: var(--bg-color);
+    background: white;
     padding: 30px;
     border-radius: 10px;
     
