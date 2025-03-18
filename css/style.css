@@ -443,6 +443,69 @@ span{
   }
 
 
+  .history {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    flex-direction: column;  
+    text-align: center;  
+    background: var(--second-bg-color);
+    padding: 50px 20px;
+}
+
+.history-detail {
+    display:contents; /* Aligns items horizontally in a row */
+    
+    gap: 30px; /* Adds space between the two elements */
+    flex-wrap: nowrap; /* Ensures items stay in one row, no wrapping */
+}
+
+.history-1, .history-2 {
+    width: 98%; /* Adjust width to make both elements fit in one row */
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.history-1 img, .history-2 img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Sets font */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark grey color for text */
+    text-align: left; /* Aligns the text to the right */
+}
+
+ul li {
+    background-color: #f9f9f9; /* Light background for each item */
+    margin: 8px 0; /* Adds margin between items */
+    padding: 10px; /* Adds padding inside each list item */
+    border-radius: 5px; /* Rounded corners for each item */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Subtle shadow effect */
+}
+
+ul li strong {
+    font-weight: bold;
+    color: #0056b3; /* Blue color for the labels */
+}
+
+
+
+
+
+
+
+
 /*academics*/
 
 
