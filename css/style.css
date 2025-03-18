@@ -691,7 +691,7 @@ span{
         padding: 10rem 3% 2rem;
     }
 
-    .services{
+    .academics{
         padding-bottom: 7rem;
     }
 
@@ -767,10 +767,42 @@ span{
         margin-top: 4rem;
     }
 
-    .services h2{
-        margin-bottom:3rem ;
+    .academics{
+        flex-direction: column;
     }
 
+    .academics-content h3{
+        font-size: 2.6rem;
+    }
+
+    .academics-content h1{
+        font-size: 5rem;        
+    }
+
+    .academics-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    
+    .event{
+        flex-direction: column;
+    }
+
+    .event-content h3{
+        font-size: 2.6rem;
+    }
+
+    .event-content h1{
+        font-size: 5rem;        
+    }
+
+    .event-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+  
     .Learning-circles h2{
         margin-bottom: 3rem;
     }
