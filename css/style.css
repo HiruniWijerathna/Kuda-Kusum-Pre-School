@@ -288,9 +288,14 @@ span{
     text-align: center;  /* Centers text inside each div */
   }
   
-  .logo-1 img, .flag-1 img {
+  .logo-1 img {
     width: 100%;  /* Makes the image responsive */
-    max-width: 200px;  /* Optional: Adjust the maximum image size */
+    max-width: 50%;  /* Optional: Adjust the maximum image size */
+  }
+
+  .flag-1 img {
+    width: 100%;  /* Makes the image responsive */
+    max-width: 100%;  /* Optional: Adjust the maximum image size */
   }
 
 
