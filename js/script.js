@@ -60,3 +60,20 @@ const typed = new Typed('.multiple-text',{
     loop: true
 
 });
+
+/*====image open===*/
+function openLightbox(image) {
+    // Get the modal and image elements
+    var modal = document.getElementById("lightbox-modal");
+    var modalImg = document.getElementById("lightbox-img");
+
+    // Set the modal image source to the clicked image
+    modal.style.display = "flex";
+    modalImg.src = image.src;
+}
+
+function closeLightbox() {
+    // Close the lightbox when clicked anywhere on the modal
+    var modal = document.getElementById("lightbox-modal");
+    modal.style.display = "none";
+}
