@@ -241,7 +241,7 @@ span{
 
 .galary-img {
     display:flex; /* Aligns items horizontally in a row */
-    flex-direction: row;  
+    flex-direction: column;  
     gap: 30px; /* Adds space between the two elements */
     flex-wrap: nowrap; /* Ensures items stay in one row, no wrapping */
 }
