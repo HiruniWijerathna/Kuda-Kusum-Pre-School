@@ -235,28 +235,26 @@ span{
     flex-direction: column;  
     text-align: center;  
     background: var(--bg-color);
-    padding: 50px 20px;
   }
 
 
 .galary-img {
-    display:flex; /* Aligns items horizontally in a row */
-    flex-direction: column;  
-    gap: 30px; /* Adds space between the two elements */
-    flex-wrap: nowrap; /* Ensures items stay in one row, no wrapping */
+    display: flex; /* Aligns items horizontally in a row */
+    flex-direction: row;  /* Items will be aligned in a row */
+    gap: 30px; /* Adds space between the items */
+    flex-wrap: wrap; /* Allows the items to wrap to the next line if necessary */
+    justify-content: space-between; /* Distributes space between the items evenly */
+    width: 100%; /* Takes up the full width of the parent container */
+    text-align: center; /* Centers the text inside each image container */
 }
-
-.galary-img{
-    width: 98%; /* Adjust width to make both elements fit in one row */
-    text-align: center;
-    
-}
-
 .galary-img img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 5%;
+    width: 23%; /* Adjust width to fit 4 images in one row */
+    max-width: 300px; /* Optional: Set a max width to avoid large images */
+    border-radius: 5%; /* Rounds the corners of the images */
 }
+
+
+
 
 
 
