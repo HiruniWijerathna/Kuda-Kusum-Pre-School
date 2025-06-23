@@ -1,7 +1,7 @@
 # 🌐 Kuda Kusum Pre School Website
 
 <p align="center">
-  <img src="screenshots/7.png" alt="Kuda Kusum Pre School Website Banner" width="100%" />
+  <img src="7.png" alt="Kuda Kusum Pre School Website Banner" width="100%" />
 </p>
 
 A modern, responsive website designed and developed for **Kuda Kusum Pre School**, aimed at enhancing the school’s online presence and improving accessibility of information for parents and visitors.
